@@ -4,7 +4,7 @@ const cors = require('cors')
 const PORT = 3001
 
 app.use(cors())
-
+app.use(express.static('public'))
 const rappers = {
 	'21 savage':{
 		'age': 29,
